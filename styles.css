@@ -1,0 +1,26 @@
+.fa-play {
+    width: 100px;
+}
+
+.outer {
+    width: 100%;
+    min-height: 4em;
+    height: auto;
+    background-color: #B8D1BD;
+    border: none;
+    padding: 0;
+    margin: 0;
+    word-wrap: break-word;
+
+    font-weight:normal;
+    color: #356623;
+    /*background-color:#AEFF36;*/
+    font-size:12px;
+    text-align:justify;
+    /*font-family:verdana, sans-serif;*/
+    line-height:1;
+}
+
+.btn {
+    margin: 0.5em;
+}

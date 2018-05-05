@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test API con Jquery</title>
+    <meta charset="UTF-8">
+    <title>Test API RESTful</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- List of Agents within a BU -->
+    <div class="outer" id="sectionToken">No autenticado.</div>
+    <button class="btn btn-primary" onclick="getToken()"><i class="fas fa-key">  Get Token</i></button>
+    <br />
+    <br />
+    <br />Results:
+    <div class="outer" id="callResults"></div>
+    <button type="button" class="btn btn-primary" onclick="getManufacturersList()"><i class="fas fa-play"> Run</i></button>
+    <br />
+    <script src="bootstrap.min.js"></script>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="request.js"></script>
+</body>
+</html>
